@@ -5,7 +5,6 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Footer } from "@/components/footer";
-import { AIChatbot } from "@/components/ai-chatbot";
 
 export const metadata: Metadata = {
   title: "Nova - Minimalist Portfolio & Blog",
@@ -37,18 +36,16 @@ export default function RootLayout({
           data-debug="true"
           data-custom-data='{"appName": "YourApp", "version": "1.0.0", "greeting": "hi"}'
         />
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            enableSystem
-            disableTransitionOnChange
-          >
-              {children}
-              <Footer />
-              <AIChatbot />
-              <VisualEditsMessenger />
-          </ThemeProvider>
-
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+            {children}
+            <Footer />
+            <VisualEditsMessenger />
+        </ThemeProvider>
       </body>
     </html>
   );
