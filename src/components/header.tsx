@@ -94,7 +94,7 @@ export function Header() {
     <img
       src="/me.gif"   // 👈 replace with your GIF path
       alt="status"
-      className="h-25 w-24 object-contain"
+      className="h-31 w-31 object-contain"
     />
   
   </div>

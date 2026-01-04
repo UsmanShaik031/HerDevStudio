@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Nova - Minimalist Portfolio & Blog",
+  title: "Usman's Blog",
   description: "A clean, unique portfolio and blog experience",
 };
 

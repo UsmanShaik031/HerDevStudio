@@ -116,7 +116,7 @@ export default function ContactPage() {
 
               <div className="mb-8 space-y-4">
                 <a
-                  href="mailto:hello@nova.design"
+                  href="usmanshaiik2003@gmail.com"
                   className="flex items-center gap-4 rounded-xl border border-border/50 bg-card/30 p-4 transition-all hover:border-primary/20 hover:bg-card/60"
                 >
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
