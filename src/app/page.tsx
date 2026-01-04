@@ -173,12 +173,12 @@ export default function Home() {
               transition={{ delay: 1, duration: 0.5, type: "spring" }}
               src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/e903baaa-008b-458f-9dda-e2f4e15f4c53/pngtree-thumbs-up-emoji-with-a-smile-expressing-approval-and-positive-attitude-png-image_19847034-removebg-preview-1767499756708.png?width=8000&height=8000&resize=contain"
               alt="Thumbs Up"
-              className="absolute -right-16 -top-8 h-20 w-20 pointer-events-none select-none"
+              className="absolute -right-8 sm:-right-16 -top-8 h-12 w-12 sm:h-20 sm:w-20 pointer-events-none select-none"
             />
           </div>
           
-          <div className="mb-8">
-            <h1 className="flex flex-wrap justify-center gap-x-4 text-6xl font-black tracking-tight sm:text-8xl lg:text-[10rem] leading-[0.9]">
+          <div className="mb-8 w-full">
+            <h1 className="flex flex-wrap justify-center gap-x-4 text-4xl font-black tracking-tight sm:text-7xl lg:text-[9rem] xl:text-[10rem] leading-[0.9] break-words">
               <MagneticText>Digital Craftsman Designing the Future.</MagneticText>
             </h1>
           </div>

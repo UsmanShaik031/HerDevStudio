@@ -5,6 +5,7 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Footer } from "@/components/footer";
+import { Chatbot } from "@/components/chatbot";
 
 export const metadata: Metadata = {
   title: "Nova - Minimalist Portfolio & Blog",
@@ -17,8 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="antialiased">
+      <html lang="en" suppressHydrationWarning className="overflow-x-hidden">
+        <body className="antialiased overflow-x-hidden">
+
         <Script
           id="orchids-browser-logs"
           src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/scripts/orchids-browser-logs.js"
@@ -36,16 +38,18 @@ export default function RootLayout({
           data-debug="true"
           data-custom-data='{"appName": "YourApp", "version": "1.0.0", "greeting": "hi"}'
         />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
-            {children}
-            <Footer />
-            <VisualEditsMessenger />
-        </ThemeProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
+              {children}
+              <Footer />
+              <Chatbot />
+              <VisualEditsMessenger />
+          </ThemeProvider>
+
       </body>
     </html>
   );
