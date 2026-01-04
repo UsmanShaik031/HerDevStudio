@@ -57,13 +57,13 @@ export default function LabsPage() {
     <main className="relative min-h-screen">
       <Background />
       <Header />
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
 
-      <div className="mx-auto max-w-6xl px-6 pt-32 pb-20">
+      <div className="mx-auto max-w-6xl px-6 pt-32 pb-15">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-16"
+          className="mb-10"
         >
           <div className="mb-4 flex items-center gap-2">
             <Sparkles className="h-6 w-6 text-primary" />
@@ -116,16 +116,7 @@ export default function LabsPage() {
                 ))}
               </div>
 
-                <div className="flex gap-3">
-                  <button className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground">
-                    <ExternalLink className="h-3.5 w-3.5" />
-                    <MagneticText>Demo</MagneticText>
-                  </button>
-                  <button className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground">
-                    <Github className="h-3.5 w-3.5" />
-                    <MagneticText>Source</MagneticText>
-                  </button>
-                </div>
+                
             </motion.div>
           ))}
         </div>

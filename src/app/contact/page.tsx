@@ -127,29 +127,12 @@ export default function ContactPage() {
                       <MagneticText>Email</MagneticText>
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      <MagneticText>hello@nova.design</MagneticText>
+                      <MagneticText>usmanshaiik2003@gmail.com</MagneticText>
                     </p>
                   </div>
                 </a>
 
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 rounded-xl border border-border/50 bg-card/30 p-4 transition-all hover:border-primary/20 hover:bg-card/60"
-                >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                    <Twitter className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium">
-                      <MagneticText>Twitter</MagneticText>
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      <MagneticText>@novadesign</MagneticText>
-                    </p>
-                  </div>
-                </a>
+                
 
                 <a
                   href="https://github.com"
@@ -165,13 +148,13 @@ export default function ContactPage() {
                       <MagneticText>GitHub</MagneticText>
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      <MagneticText>@nova-design</MagneticText>
+                      <MagneticText>usmanshaik</MagneticText>
                     </p>
                   </div>
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/usman-shaiik"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 rounded-xl border border-border/50 bg-card/30 p-4 transition-all hover:border-primary/20 hover:bg-card/60"
@@ -184,20 +167,12 @@ export default function ContactPage() {
                       <MagneticText>LinkedIn</MagneticText>
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      <MagneticText>Nova Design</MagneticText>
+                      <MagneticText>Usman Shaik</MagneticText>
                     </p>
                   </div>
                 </a>
               </div>
 
-              <div className="rounded-xl border border-border/50 bg-card/30 p-6">
-                <h3 className="mb-2 font-bold">
-                  <MagneticText>Response Time</MagneticText>
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  <MagneticText>I typically respond within 24-48 hours. For urgent inquiries, DM me on Twitter for the fastest response.</MagneticText>
-                </p>
-              </div>
             </motion.div>
         </div>
       </div>

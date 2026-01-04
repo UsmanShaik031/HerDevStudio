@@ -12,19 +12,19 @@ const notes = [
     id: 1,
     content: "Reliability isn’t about preventing failure.\nIt’s about designing systems that fail predictably and recover fast.",
     tags: ["Systems", "Reliability"],
-    date: "May 15, 2024"
+    date: "May 15, 2026"
   },
   {
     id: 2,
     content: "Monitoring without context is noise.\nGood observability tells you why something broke, not just that it broke.",
     tags: ["Observability", "Engineering"],
-    date: "May 12, 2024"
+    date: "May 12, 2025"
   },
   {
     id: 3,
     content: "Frontend performance is a backend problem wearing a UI mask.\nSlow systems always surface at the interface first.",
     tags: ["Performance", "Web"],
-    date: "May 8, 2024"
+    date: "May 8, 2025"
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export default function NotesPage() {
       <Background />
       <Header />
 
-      <div className="mx-auto max-w-4xl px-6 pt-32 pb-20">
+      <div className="mx-auto max-w-4xl px-6 pt-32 pb-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -112,17 +112,7 @@ export default function NotesPage() {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="mt-12 text-center"
-        >
-          <button className="flex mx-auto items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
-            <MagneticText>Load more notes</MagneticText>
-            <ArrowRight className="h-4 w-4" />
-          </button>
-        </motion.div>
+      
       </div>
     </main>
   );
