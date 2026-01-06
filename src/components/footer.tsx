@@ -19,7 +19,7 @@ export function Footer() {
 
             <p className="mt-4 max-w-md text-base text-muted-foreground leading-relaxed">
               <MagneticText>
-                Full-Stack Developer & Site Reliability Engineer — building scalable,
+                Full-Stack Developer & DevOps Engineer — building scalable,
                 high-performance digital products with modern web technologies.
               </MagneticText>
             </p>
