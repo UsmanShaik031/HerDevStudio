@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Usman's Blog",
+  title: "Her Dev Studio",
   description: "A clean, unique portfolio and blog experience",
 };
 
@@ -42,9 +42,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-            {children}
-            <Footer />
-            <VisualEditsMessenger />
+          {children}
+          <Footer />
+          <VisualEditsMessenger />
         </ThemeProvider>
       </body>
     </html>

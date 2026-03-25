@@ -146,7 +146,6 @@ const labs = [
   },
 ];
 
-
 <style jsx global>{`
   /* ================================
    GLOBAL RESPONSIVE SAFETY (HOME)
@@ -305,10 +304,10 @@ export default function Home() {
     lg:text-[7rem]
   "
           >
-            Hi, I’m <br />
-            Usman Shaik <br />
+            Welcome to <br />
+            Her Dev Studio <br />
             <span className="text-muted-foreground font-semibold">
-              Crafting modern, scalable digital experiences
+              Crafting modern, scalable digital Blog experiences
             </span>
           </h1>
 
@@ -541,9 +540,6 @@ export default function Home() {
           </div>
         </section>
 
-       
-
-  
         <section id="contact" className="mt-40 mb-12">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-7xl">
